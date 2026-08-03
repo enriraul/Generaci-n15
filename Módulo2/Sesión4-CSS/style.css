@@ -1,0 +1,51 @@
+/* 
+    -Encabezado
+*/
+
+h2{ /*Selector de etiqueta*/
+    color:red;
+}
+h4{
+    color:rgb(187, 147, 74);
+}
+p{
+    color: cadetblue;
+}
+#SegundoEncabezado{ /*Selector id*/
+    color:darkslateblue;
+}
+.FondoOscuro{
+    background-color: rgb(255, 253, 253);
+    color:rgb(12, 63, 46);
+    font-size: 30px;
+}
+
+div h4{
+    color:red;
+}
+
+div p, div .FondoOscuro{
+    background-color: grey;
+}
+
+.enfasis{
+    color:red ;
+}
+
+
+div{
+    height: 40px;
+    border: 1px black dashed;
+}
+
+.contenedor div:first-child{
+    background-color: rgb(64, 64, 40);
+}
+
+.contenedor div:nth-child(2){
+    background-color: rgb(11, 18, 80);
+}
+
+.contenedor div:last-child{
+    background-color: rgb(180, 2, 2);
+}
