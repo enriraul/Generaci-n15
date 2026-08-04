@@ -1,0 +1,70 @@
+#encabezado{
+    /* height: 40px;
+    width: 700px;
+    border: 1px black solid; */
+    /* border-top: 1px black solid;
+    border-bottom: 5px black solid;
+    border-left: 10px red dashed;
+    border-right: 10px blue dotted; */
+    background-color: darkgray;
+}
+
+.contenedor{
+    height: 80px;
+    border: 10px solid black;
+    background-color: rgb(107, 69, 13);
+    /* padding: 50px; */
+    /*padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 30px;*/
+    /* padding: 10px 50px 100px 80px; */
+
+    /*
+    atributo: parametro   Se aplica a todo de manera uniforme
+    atributo: top-bottom left-right
+    atributo: top rigth bottom left
+    */
+
+    margin: 0px 30px;
+}
+
+/* .contenedor1{
+    height: 80px;
+    border: 10px solid black;
+    background-color: rgb(107, 69, 13);
+
+} */
+
+.background-div{
+    height: 200px;
+    width: 800px;
+    background-color: rgb(97, 114, 144);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfYRjqGm_5eFzKL4QyVrScc4BOZU1F0qq-J-SQUrVRh2OTR65O9z1SgKs&s=10);
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: left;
+    border: 5px black solid;
+}
+
+.background-div h2{
+    text-align:  center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.Informacion{
+    margin-top: 10px;
+    width: 800px;
+    height: 600px;
+    border: 5px black solid;
+}
+
+.Informacion div{
+
+    width: 700px;
+    height: 150px;
+    border: 5px black solid;
+    margin: 30px;
+}
