@@ -1,0 +1,57 @@
+.padre{
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    direction: rtl;
+
+    /*
+        Display: Dicta la forma en cómo se 
+        organizan los elementos dentro un contenedor.
+
+        Display: 
+            -block: Estructura por default. 
+            -flex: Estructura de flexbox.
+
+        flexbox:
+            Dirección por default es la fila. 
+    */
+    flex-direction: row;
+
+    flex-wrap:wrap;
+    /*
+        flex-wrap: Determina el comportamiento de los 
+        elementos dentro del contenedor, en donde:
+
+        wrap: Conserva el tamaño del elemento y no 
+        reajusta sus dimensiones para adaptarse al contenedor
+
+        nowrap: Ajusta la dimensión del eleento en 
+        base al contenedor
+    
+    */
+    justify-content:center;
+    /*
+        justify-content: Determina la forma de la distribución
+        de los elementos dentro la dirección del contenedor.
+    */
+    align-content: center;
+}
+
+.item{
+    width: 70px;
+    height: 50px;
+    border: 5px solid black;
+    margin:10px;
+
+}
+
+.item:first-child{
+    background-color: red;
+}
+.item:nth-child(2){
+    background-color: blue;
+}
+.item:last-child{
+    background-color: yellow;
+}
