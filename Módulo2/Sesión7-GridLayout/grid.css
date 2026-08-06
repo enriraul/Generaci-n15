@@ -1,0 +1,20 @@
+.contenedor{
+    border: 1px solid black;
+    background-color: cadetblue;
+    display: grid;
+    height: 300px;
+
+    /*Descripción de la estructura*/
+    grid-template-columns: repeat(3,50px);
+    grid-template-rows: repeat(3,50px);
+
+    justify-content: start;
+    align-content: end;
+}
+
+.contenedor div{
+    border: 1px solid black;
+    border-radius: 20%; 
+    background-color: rgb(16, 97, 120);
+    text-align: center;
+}
