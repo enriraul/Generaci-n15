@@ -1,0 +1,58 @@
+.contenedor{
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.contenedor div{
+    width: 100px;
+    border: 1px solid black;
+}
+
+/* 
+Sintaxis básica
+@media(condicional){
+
+} 
+Nota principal: Los queries 
+media no generan un nuevo html
+Los queries redefinen los 
+parametros especificados
+
+Parametros en relación al ancho
+min-width "A partir de este tamaño"
+max-width "Hasta este tamaño"
+
+Parametros en relación a lo alto
+min-height
+max-height
+*/
+
+@media (min-width:1000px){
+    #div1{
+        background-color: blueviolet;
+    }
+    #div2{
+        background-color: brown;
+    }
+}
+
+@media (max-width:900px) {
+    #div1{
+        background-color: rgb(226, 226, 43);
+    }
+    #div2{
+        background-color: rgb(134, 165, 42);
+    }
+}
+
+@media (hover) {
+    #boton:hover{
+        background-color: blueviolet;
+    }
+    #div3:hover{
+        background-color: crimson;
+    }
+}

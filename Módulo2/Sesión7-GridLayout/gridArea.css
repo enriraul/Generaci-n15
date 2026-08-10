@@ -2,10 +2,11 @@
     border: 1px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 5fr 2fr 1fr;
     grid-template-areas: 
     "hd hd ad"
     "mn mn mn"
+    "div1 div1 div2"
     "ft ft ft"
 }
 
@@ -28,4 +29,13 @@
 .contenedor footer{
     grid-area: ft;
     background-color: rgb(107, 168, 22);
+}
+
+.contenedor #div1{
+   grid-area: div1; 
+   background-color: rgb(10, 10, 82);
+}
+.contenedor #div2{
+    grid-area: div2;
+    background-color: rgb(163, 168, 22);
 }
