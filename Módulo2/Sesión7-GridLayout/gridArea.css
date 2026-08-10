@@ -1,0 +1,31 @@
+.contenedor{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-areas: 
+    "hd hd ad"
+    "mn mn mn"
+    "ft ft ft"
+}
+
+
+.contenedor header{
+    grid-area: hd;
+    background-color: rgb(47, 108, 206);
+}
+
+.contenedor main{
+    grid-area:mn;
+    background-color: rgb(106, 208, 174);
+}
+
+.contenedor aside{
+    grid-area: ad;
+    background-color: rgb(186, 115, 53);
+}
+
+.contenedor footer{
+    grid-area: ft;
+    background-color: rgb(107, 168, 22);
+}
