@@ -1,0 +1,26 @@
+/* Apartado de la sección de nav */
+
+.logo-principal{
+    width: 6rem;
+    background-color: white;
+    border-radius: 50%;
+    border: 0.5rem solid rgb(48, 62, 26);
+}
+
+.navbar-section{
+    height: 8rem;
+    background-color: darkolivegreen;
+}
+
+.nav-link{
+    color:white;
+    font-size: 1.5rem;
+}
+
+/* Apartado de la sección de Aboutme */
+.logo-cv{
+    width: 13rem;
+    background-color: white;
+    border-radius: 50%;
+    border: 1rem solid rgb(48, 62, 26);
+}
