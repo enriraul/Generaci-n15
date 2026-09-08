@@ -24,13 +24,6 @@ DROP DATABASE Aerolineas;
 CREATE USER _nombreUsuario_ WITH PASSWORD 'Contraseña';
 DROP USER _nombreUsuario_
 
-CREATE TABLE estudiantes(
-    matricula VARCHAR(10) PRIMARY KEY,
-    nombre VARCHAR(50) NOT NULL,
-    edad integer NOT NULL,
-    inscrito BOOLEAN,
-    fecha_alta DATE DEFAULT CURRENT_DATE
-);
 
 -- MODIFICAR
 -- Agregar un atributo

@@ -59,3 +59,4 @@ WHERE matricula = 'A00002';
 
 DELETE FROM estudiantes
 WHERE matricula = 'A00002';
+
